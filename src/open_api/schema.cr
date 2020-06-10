@@ -34,5 +34,6 @@ module OpenAPI
     field default : JSON::Any::Type
     field read_only : Bool?
     field write_only : Bool?
+    field example : JSON::Any::Type?
   end
 end
